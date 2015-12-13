@@ -1,17 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
 html,
 body {
   height: 100%;
   background: #114357;
   background: -webkit-linear-gradient(to left, #114357 , #F29492);
   background: linear-gradient(to left, #114357 , #F29492);
-  font-family: 'Lato', sans-serif;
 }
 
 body {
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
 }
 
@@ -28,16 +24,8 @@ body {
 
 .cover-container {
   margin: 0 auto;
-}
-
-h1 {
-  font-family: 'Poiret One', cursive;
-  font-size: 108px;
-}
-
-p {
-  font-size: 27px;
-  padding: 10px 0 20px 0;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 a,
@@ -46,7 +34,7 @@ a:hover,
 a:active,
 a:visited {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 i {
