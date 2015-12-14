@@ -5,8 +5,8 @@ html,
 body {
   height: 100%;
   background: #114357;
-  background: -webkit-linear-gradient(to left, #114357 , #F29492);
-  background: linear-gradient(to left, #114357 , #F29492);
+  background: -webkit-linear-gradient(to left, #114357, #F29492);
+  background: linear-gradient(to left, #114357, #F29492);
 }
 
 body {
@@ -35,11 +35,11 @@ body {
 }
 
 .card-header {
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .card-footer {
-  margin-bottom: 25px;
+  margin: 30px 0 35px 0;
 }
 
 .profile-pic {
@@ -47,16 +47,21 @@ body {
   width: 125px;
 }
 
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
 h1 {
   font-family: 'Londrina Outline', cursive;
-  font-size: 45px;
-  text-transform: uppercase;
+  font-size: 54px;
+  margin-bottom: 0;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
+  margin-top: 5px;
 }
 
 a,
