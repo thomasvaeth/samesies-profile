@@ -4,14 +4,31 @@
 html,
 body {
   height: 100%;
-  background: #114357;
-  background: -webkit-linear-gradient(to left, #114357, #F29492);
-  background: linear-gradient(to left, #114357, #F29492);
+  width: 100%;
+  background: #185A9D;
 }
 
 body {
   color: #000000;
   text-align: center;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  background: url('../images/background.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom right, #43CEA2, #185A9D);
+  opacity: 0.4;
 }
 
 .site-wrapper {
