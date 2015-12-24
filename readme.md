@@ -29,3 +29,6 @@ I needed to make templates to add to a store for my final project at General Ass
 
 ### Upcoming Additions
 * Card flip for more personal information on the back.
+
+### Screenshot
+![Template](https://github.com/thomasvaeth/samesies-profile/blob/master/screenshots/screenshot-1.png "Desktop screenshot")
